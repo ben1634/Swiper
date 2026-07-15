@@ -1,3 +1,34 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif, Inter, Roboto, poppins, Raleway, Fredoka;
+
+
+}
+
+body{
+  min-height: 100vh;
+  min-height: 100dvh;
+ 
+  
+}
+
+
+
+:root{
+--color-text-primary: #172936;
+--color-text-placeholder: #798eae;
+--color-bg-primary: #676869;
+--color-bg-secondary: #455872;
+--color-bg-sidebar: #ffffff;
+--color-border-hr:#e2e8f0;
+--color-hover-primary: #695cfe;
+--color-hover-secondary: #4f2661;
+--color-shadow: rgba(105, 103, 103, 0.5);
+
+}
+
 
 
 .navbar{
