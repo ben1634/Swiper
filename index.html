@@ -1,79 +1,1055 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Banny Practice</title>
-
-     <link rel="stylesheet" href="Assets/CSS/reset.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SWIPER</title>
+  <link rel="stylesheet" href="Assets/CSS/reset.css">
   <link rel="stylesheet" href="Assets/CSS/style.css">
   <link rel="stylesheet" href="Assets/CSS/variables.css">
-     <script src="Assets/JS/main.js" defer></script>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <script src="Assets/JS/main.js" defer></script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
-rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-rel="stylesheet">
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet">
 
-</head>
+  </head>
+  <body>
 
-<body>
+
+
+<div class="app">
+
+
+<div class="top-wrap">
+  <div class="top-nav">
+ 
+    
+       <img class="studio-img" src="Assets/Icons/swiper-studio-logo.svg" alt="Swiper studio">
+      
+      <p class="s-tag">All-new Swiper Studio  V2 is here</p>
+ 
+  </div>
+  
+</div>
+
+
+<!--Nav Menu-->
 
 <nav class="navbar">
 
-  <ul class="navlinks">
-<li class="navlink"><a href="#">Home</a></li>
-<li class="navlink"><a href="#">Store</a></li>
-<li class="navlink"><a href="#">Men</a></li>
-<li class="navlink"><a href="#">Women</a></li>
-<li class="navlink"><a href="#">Contacts</a></li>
-
-  </ul>
-
-
-<div class="ham">
-<span class="fes"></span>
-<span class="sec"></span>
-<span class="ted"></span>
-
+<!-- Logo -->
+<div class="logo" title="home">
+  <a href="#"> <img class="logos" src="Assets/Icons/swiper-logo.svg" alt="logo"></a>
 </div>
 
 
 
-  <span class="logo"> <a href="#">DarkCome</a></span>
 
-  <span class="cart"><a href=""><ion-icon name="cart"></ion-icon></a></span>
+<!-- Navigation Links -->
+<ul class="navlinks">
+
+<li class="navlink active doc jack" title="Docs"><a href="index.html">Docs</a>
+
+<ul class="droplinks">
+  <li class="droplink capcom" title="Capcom">
+    Getting Started
+  </li>
+  <li class="droplink" title="Darkcom" >
+    Swiper Core/API</li>
+
+
+  <li class="droplink" title="Se-game" >
+    Swiper Element</li>
+
+  <li class="droplink" title="Se-game" >
+    Swiper React</li>
+
+  <li class="droplink" title="Se-game" >
+    Swiper Vue</li>
+
+  <li class="droplink mcp" title="Se-game" >
+    Swiper MCP</li>
+
+  <li class="droplink" title="Se-game" >
+    Changelog</li>
+
+
+</ul>
+
+
+
+
+</li>
+<span class="conty">
+  
+</span>
+<li class="navlink con resources jack" title="Resources"><a href="Pages/about.html">Resources
+
+</a>
+
+<ul class="droplinks">
+  <li class="droplink demo" title="Capcom">
+    Demos
+  </li>
+  <li class="droplink" title="Darkcom" >
+    Playground</li>
+  <li class="droplink" title="Se-game" >
+    Pluggins</li>
+  <li class="droplink blog" title="Se-game" >
+    Blog</li>
+  <li class="droplink" title="Se-game" >
+    Sponsors</li>
+
+</ul>
+
+
+
+</li>
+<li class="navlink playground" title="Playground"><a href="Pages/contact.html">Playground</a></li>
+<li class="navlink studio" title="Studio"><a href="Pages/services.html">Studio</a></li>
+<li class="navlink premium jack"title="Premium"><a href="Pages/about.html">Premium</a>
+<ul class="droplinks">
+  <li class="droplink capcom" title="Capcom">
+    <img class="dropimg" src="Assets/Icons/uiinitiative.svg" alt="Capcom" title="Capcom">
+    Capcom
+  </li>
+  <li class="droplink" title="Darkcom" >
+     <img class="dropimg" src="Assets/Icons/konsta.svg" alt="Darkcom" title="Darkcom">
+    Darkcom</li>
+  <li class="droplink" title="Se-game" >
+     <img class="dropimg" src="Assets/Icons/paneflow.svg" alt="Se-game" title="Se-game">
+    Se-game</li>
+</ul>
+
+</li>
+
+</ul>
+
+
+
+<!-- Search Button -->
+<button title="Search" class="search-btn">
+  <span id="search-icon" class="material-symbols-outlined">
+search
+</span>
+<span class="keys">
+<span class="ctrl">Ctrl</span>
+<span class="k">K</span>
+</span>
+</button>
+
+
+
+
+<!-- Search Input Screen Alert -->
+<div class="s-head">
+  <div class="search-modal">
+  <span class="material-symbols-outlined">
+search
+</span>
+  <span class="material-symbols-outlined">
+missing_controller
+</span>
+<input class="search-input" type="search" placeholder="Search Docs..."> 
+  </div>
+</div>
+
+<!-- Nav close -->
 </nav>
 
+
+
+
+
+
+<!--Hero Section-->
 <section class="hero">
 
-<header>
+  <header>
 
-<p class="tag1">Step Up Your Style - Sneakers That Speaks!</p>
-<p class="tag2">Explore top-notch Sneakers blending style, comfort and quality for every step ahead!</p>
+<div class="h-logwrap">
+
+<img class="bigswipe" src="Assets/Icons/swiper-logo.svg" alt="swiper logo">
+<p class="swipe">SWIPER</p>
+
+
+</div>
+
+
+
+<div class="left">
+
+<p class="tag-line11">Powering Millions of Sliders- Smooth, Fast, Everywhere</p>
+
+<p class="tag-line2">v14.0.5 released on July 9, 2026</p>
 
 <div class="btns">
-
-<button class="btn">Open Store</button>
-<button class="btn outlined">Explore More</button>
+  <button class="btn">Get started</button>
+ 
 </div>
+
+</div>
+
 
 </header>
 
-<span class="sneakers">
-  <img src="mssdk/img/Product-.jpeg" alt="">
-</span>
+
+<!-- Hero close -->
+</section>
+
+
+
+
+
+<section class="vide-slide"></section>
+
+
+
+
+<!-- Carousel cards -->
+
+<section class="ccc">
+<div class="carousel-cards">
+
+<div class="card"><img class="card-img" style=" border-radius: 5px;" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(1).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(3).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(4).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03.jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.27.23.jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.49_b879dd08.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.52_9913e143.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.50_098abbe1.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.51_66e9c7bd.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.27.23.jpeg" alt=""></div>
+<div class="card"><img class="card-img" class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.51_66e9c7bd.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(3).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.27.23.jpeg" alt=""></div>
+<!-- Duplicate the items -->
+<div class="card"><img class="card-img" style=" border-radius: 5px;" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(1).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(3).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(4).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03.jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.27.23.jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.49_b879dd08.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.52_9913e143.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.50_098abbe1.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.51_66e9c7bd.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.27.23.jpeg" alt=""></div>
+<div class="card"><img class="card-img" class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-29 at 05.22.51_66e9c7bd.jpg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.26.03(3).jpeg" alt=""></div>
+<div class="card"><img class="card-img" src="Assets/Images/img/WhatsApp Image 2025-05-24 at 10.27.23.jpeg" alt=""></div>
+
+
+</div>
+
+<!-- Carousel close -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Quote Section -->
+
+<section class="quote">
+
+<div class="quote-wrap">
+
+ <div class="pwrap">
+
+<span class="qtl"><svg  xmlns="http://www.w3.org/2000/svg" width="36" height="36"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M13.01 14v4c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2h-2.85c.27-1.02 1.01-2.51 3.1-3.03l.76-.19V4h-1c-2.78 0-4.91.77-6.31 2.29-1.89 2.05-1.7 4.68-1.69 4.71v3Zm3.18-6.37c.48-.52 1.11-.91 1.87-1.19-1.56 1.42-2.04 3.4-2.04 4.56v1h5v6h-6v-7.08s-.12-1.9 1.18-3.29ZM1.01 18c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2H6.16c.27-1.02 1.01-2.51 3.1-3.03l.76-.19V4h-1c-2.78 0-4.91.77-6.31 2.29C.82 8.34 1.01 10.97 1.02 11v7Zm2-7.08s-.12-1.9 1.18-3.29c.48-.52 1.11-.91 1.87-1.19C4.5 7.86 4.02 9.84 4.02 11v1h5v6H3.01z"></path>
+</svg></span>
+
+
+    <div class="q1">Swiper is the most popular mobile-friendly slider library on the web. Built with a focus on performance, flexibility, and native-like touch interactions, it powers millions of sliders across websites, apps, and digital products.</div>
+    
+  
+  
+    <div class="q2">Lightweight and modular, Swiper integrates seamlessly with modern frameworks like React, Vue, Svelte, and plain JavaScript - making it a go-to solution for developers who need full control and a smooth user experience.</div>
+
+<span class="qtr"><svg  xmlns="http://www.w3.org/2000/svg" width="36" height="36"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M3 14h2.85c-.27 1.02-1.01 2.51-3.1 3.03l-.76.19V20h1c2.78 0 4.91-.77 6.31-2.29 1.89-2.05 1.7-4.68 1.69-4.71V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2m0-8h6v7.08s.12 1.9-1.18 3.29c-.48.52-1.11.91-1.87 1.19 1.56-1.42 2.04-3.4 2.04-4.56v-1H3zm12 8h2.85c-.27 1.02-1.01 2.51-3.1 3.03l-.76.19V20h1c2.78 0 4.91-.77 6.31-2.29 1.89-2.05 1.7-4.68 1.69-4.71V6c0-1.1-.9-2-2-2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2Zm0-8h6v7.08s.12 1.9-1.18 3.29c-.48.52-1.11.91-1.87 1.19 1.56-1.42 2.04-3.4 2.04-4.56v-1h-5V6Z"></path>
+</svg></span>
+ </div>
+  
+</div>
+
 
 
 </section>
 
-<span class="darkbg"></span>
 
 
+
+<!-- Anywhere Build Section -->
+
+<section class="build">
+
+
+<div class="build-wrap">
+
+
+
+  <p class="build-h" >Works Anywhere You Build</p>
+
+  <p class="build-sub" >Swiper is available for JavaScript, React, Vue, Web Components - and easily integrates with frameworks like Svelte, Angular, Next.js, Ember and more.</p>
+
+
+
+
+<div class="dev-wrap">
+
+  <div class="dev">
+  <img class="bl" src="Assets/Images/img/Javascript.svg.jpeg" alt="">
+  <p>JavaScript</p>
+</div>
+
+<div class="dev">
+  <img class="bl"  src="Assets/Images/img/React.svg.png" alt="">
+  <p>React</p>
+</div>
+
+<div class="dev">
+  <img class="bl"  src="Assets/Images/img/vue.jpeg" alt="">
+  <p>Vue</p>
+</div>
+
+<div class="dev">
+  <img class="bl"  src="Assets/Images/img/fisper.png" alt="">
+  <p>WebComponents</p>
+</div>
+
+
+
+<div class="dev">
+  <img class="bl" src="Assets/Images/img/shopif.png" alt="">
+  <p>Model Context</p>
+</div>
+<div class="dev">
+  <img class="bl" src="Assets/Images/img/shopif.png" alt="">
+  <p>Webflow</p>
+</div>
+
+
+<div class="dev">
+  <img class="bl" src="Assets/Images/img/shopif.png" alt="">
+  <p>Shopify</p>
+</div>
+
+</div>
+
+
+
+<div class="logems">
+
+<img src="Assets/Icons/angular.svg" alt="">
+<img src="Assets/Icons/ember.svg" alt="">
+<img src="Assets/Icons/nextjs.svg" alt="">
+<img src="Assets/Icons/solidjs.svg" alt="">
+<img src="Assets/Icons/svelte.svg" alt="">
+<img src="Assets/Icons/typescript.svg" alt="">
+<img src="Assets/Icons/angular.svg" alt="">
+<img src="Assets/Icons/ember.svg" alt="">
+<img src="Assets/Icons/typescript.svg" alt="">
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Box Kard Section -->
+
+<section class="kards2">
+
+<h2 class="kardp">
+Powered With Top Notch Features
+</h2>
+
+  <main class="box-wrapper">
+
+<!-- 1st Box Group -->
+
+    <nav class="boxx">
+      <div class="box-tag">
   
+ <div class="xboxwrap">
+          <div class="iconwrap">
+            <span  class="material-symbols-outlined iconme">
+explore
+</span>
+          <p class="tip">Explore</p>
+          </div>
+
+      </div>
+        </div>
+      </nav>
+
+
+
+
+    <nav class="boxx">
+      <div class="box-tag">
+          
+ <div class="xboxwrap">
+          <div class="iconwrap">
+          <span  class="material-symbols-outlined iconme">
+navigation
+</span>
+          <p class="tip">Navigation</p>
+          </div>
+
+      </div>
+        </div>
+      </nav>
+
+
+
+
+    <nav class="boxx">
+      <div class="box-tag">
+           
+  <div class="xboxwrap">
+          <div class="iconwrap">
+            <span class="material-symbols-outlined iconme">
+radar
+</span>
+          <p class="tip">Radar</p>
+          </div>
+
+      </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+<nav class="boxx"> 
+  <div class="box-tag">
+             
+  <div class="xboxwrap">
+          <div class="iconwrap">
+           <span  class="material-symbols-outlined iconme">
+pin_drop
+</span>
+          <p class="tip">Pin Drop</p>
+          </div>
+
+      </div>
+        </div>
+      </nav>
+
+
+
+
+<nav class="boxx">
+
+ <div class="box-tag">
+            
+ <div class="xboxwrap">
+          <div class="iconwrap">
+            <span  class="material-symbols-outlined iconme">
+troubleshoot
+</span>
+          <p class="tip">Troubleshoot</p>
+          </div>
+
+      </div>
+        </div>
+</nav>
+
+
+
+
+<!-- 2nd Box Group -->
+
+<nav class="boxx">
+ <div class="box-tag">
+            
+  <div class="xboxwrap">
+          <div class="iconwrap">
+            <span  class="material-symbols-outlined iconme">
+nearby_off
+</span>
+          <p class="tip">Nearby Off</p>
+          </div>
+
+      </div>
+        </div>
+</nav>
+
+
+
+
+
+<nav class="boxx">
+ <div class="box-tag">
+          
+  <div class="xboxwrap">
+          <div class="iconwrap">
+           <span  class="material-symbols-outlined iconme">
+shield_radar
+</span>
+          <p class="tip">Shield Radar</p>
+          </div>
+
+      </div>
+        </div>
+</nav>
+
+
+
+
+<nav class="boxx">
+ <div class="box-tag">
+         
+  <div class="xboxwrap">
+          <div class="iconwrap">
+            <span  class="material-symbols-outlined iconme">
+policy_alert
+</span>
+          <p class="tip">Policy Alert</p>
+          </div>
+
+      </div>
+        </div>
+
+</nav>
+
+
+
+<nav class="boxx">
+ <div class="box-tag">
+            
+  <div class="xboxwrap">
+          <div class="iconwrap">
+         <span  class="material-symbols-outlined iconme">
+place_item
+</span>
+          <p class="tip">Place Item</p>
+          </div>
+
+      </div>
+        </div>
+</nav>
+
+
+
+
+
+
+<nav class="boxx">
+
+ <div class="box-tag">
+             
+ <div class="xboxwrap">
+          <div class="iconwrap">
+           <span   class="material-symbols-outlined iconme">
+scanner
+</span>
+          <p class="tip">Library Scan</p>
+          </div>
+
+      </div>
+        </div>
+</nav>
+
+
+
+
+
+
+
+<!-- 3rd Box Group -->
+
+<nav class="boxx">
+ <div class="box-tag">
+            
+  <div class="xboxwrap">
+          <div class="iconwrap">
+           <span   class="material-symbols-outlined iconme">
+zoom_in_map
+</span>
+          <p class="tip">Zoom In Map</p>
+          </div>
+
+      </div>
+        </div>
+</nav>
+
+
+
+
+
+<nav class="boxx">
+  <div class="box-tag">
+    <div class="xboxwrap">
+      <div class="iconwrap">
+        <span class="material-symbols-outlined iconme">
+          stacks
+        </span>
+        <p class="tip">Stacks</p>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+<nav class="boxx">
+
+ <div class="box-tag">
+           
+  <div class="xboxwrap">
+          <div class="iconwrap">
+           <span  class="material-symbols-outlined iconme">
+clarify
+</span>
+          <p class="tip">Clarify</p>
+          </div>
+
+      </div>
+        </div>
+</nav>
+ 
+
+  </main>
+
+  <!-- kards2 close -->
+    </section >
+
+
+
+<section class="banner">
+
+
+<div class="build-wrap2">
+  <p class="build-h">Build More with Swiper Studio & UI Initiative</p>
+  
+  <p class="build-sub">Beyond the core library, Swiper is part of a growing ecosystem. 
+  <a class="text-link" href="https://swiperjs.com/">Swiper Studio </a>
+  offers a visual, no-code builder for crafting sliders quickly, while   <a class="text-link" href="https://swiperjs.com/">UI Initiative </a>delivers premium Swiper-based UI templates and effects.</p>
+</div>
+
+
+<div class="banner-wrap">
+
+
+
+<div class="banleft">
+
+<img class="ban-left-logo" src="Assets/Icons/uiinitiative.svg" alt="">
+
+<p class="ban-tag1">Premium Templates & Plugins for Swiper amd Framework7</p>
+
+<img class="ban-left-pic" src="Assets/Images/img/uiinitiative-banner.jpg" alt="Banner initiative">
+
+
+
+</div>
+
+
+
+
+
+
+<div class="banright">
+<img class="ban-right-logo" src="Assets/Icons/swiper-studio-logo.svg" alt="Swiper studio">
+
+<p class="ban-tag2">Build stunning sliders and carousels- no code required</p>
+
+<img class="ban-right-pic" src="Assets/Images/img/swiper-studio-banner.jpg" alt="Banner studio">
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+<!-- FAQs --> 
+
+<section class="faq-conty">
+
+  <h3 class="heady">Frequently Asked Questions</h3>
+
+<div class="faq-list">
+
+  <div class="faq">
+
+    <div class="ques">
+      <p>What is Netflix</p>
+      <span class="faqy"><ion-icon name="add-outline"></ion-icon></span>
+    </div>
+
+    <div class="ans">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid?</p>
+    </div>
+
+</div>
+
+
+  <div class="faq">
+
+    <div class="ques">
+      <p>How much does Netflix cost?</p>
+      <span class="faqy"><ion-icon name="add-outline"></ion-icon></span>
+    </div>
+
+    <div class="ans">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid?</p>
+    </div>
+</div>
+
+
+  <div class="faq">
+
+    <div class="ques">
+      <p>Where can I watch?</p>
+      <span class="faqy"><ion-icon name="add-outline"></ion-icon></span>
+    </div>
+
+    <div class="ans">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid?</p>
+    </div>
+</div>
+
+
+  <div class="faq">
+
+    <div class="ques">
+      <p>How do I cancel?</p>
+      <span class="faqy"><ion-icon name="add-outline"></ion-icon></span>
+    </div>
+
+    <div class="ans">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid?</p>
+    </div>
+</div>
+
+
+  <div class="faq">
+
+    <div class="ques">
+      <p>What can I watch on Netflix?</p>
+      <span class="faqy"><ion-icon name="add-outline"></ion-icon></span>
+    </div>
+
+    <div class="ans">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid?</p>
+    </div>
+</div>
+
+
+  <div class="faq">
+
+    <div class="ques">
+      <p>Is Netflix good for kids?</p>
+      <span class="faqy"><ion-icon name="add-outline"></ion-icon></span>
+    </div>
+
+    <div class="ans">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid?</p>
+    </div>
+</div>
+
+
+</div>
+
+<!-- Faq close -->
+</section>
+
+
+
+<!-- Cards -->
+
+
+<section>
+  
+
+
+  <div class="topwrap">
+    <h2 class="tophead">The Tools Powering Modern Front-End Development</h2>
+  </div>
+  
+  <div class="lowrap"><p class="lowhead">Discover our full suite of UI tools, frameworks, no-code solutions and productivity apps built to elevate your development workflow.</p></div>
+  
+  
+
+
+  <div class="kards">
+  
+  
+  <!-- Group 1 -->
+  
+      <div class="box">
+      
+    <img class="pic-log" src="Assets/Icons/paneflow.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+        
+          </div>
+      
+  
+  
+  
+  <div class="box"> 
+     <img class="pic-log" src="Assets/Icons/swiper-studio-logo.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+        </div>
+  
+  
+  
+  
+  <div class="box">
+   <img class="pic-log" src="Assets/Icons/swiper-logo.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  <!-- Group 2 -->
+  
+  
+  <div class="box">
+  
+   <img class="pic-log" src="Assets/Icons/t0ggles.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+  
+  </div>
+  
+  
+  
+  <div class="box">
+   <img class="pic-log" src="Assets/Icons/framework7.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+  </div>
+  
+  
+  
+  
+  <div class="box">
+   <img class="pic-log" src="Assets/Icons/startpagehq.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  <!-- Group 3 -->
+  
+  <div class="box">
+   <img class="pic-log" src="Assets/Icons/konsta.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+  
+  </div>
+  
+  
+  
+  <div class="box">
+  
+   <img class="pic-log" src="Assets/Icons/cladd.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+  
+  </div>
+  
+  
+  
+  <div class="box">
+    <img class="pic-log" src="Assets/Icons/uiinitiative.svg" alt="">     
+   
+            <div class="tagwrap">
+              <p class="pan">Paneflow</p>
+            <p>Build stunning slide shows visually. No code required</p>
+            </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+</div>
+  <!-- Cards close -->
+</section>
+
+
+
+<!-- Footer -->
+
+<footer>
+<div class="footer-wrap">
+  <div class="footer-links">
+    
+<div class="logo-wrap">
+   
+  <img class="footer-logo" src="Assets/Images/img/channel1.webp" alt="logo" title="logo">
+ <p class="logo-name">Jimmy</p>
+</div>
+
+
+<div class="docs">
+  <p class="topic">Docs</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Swiper Core / API</a></span>
+<span class="subs"><a href="#">Swiper Element</a></span>
+<span class="subs"><a href="#">Swiper React</a></span>
+<span class="subs"><a href="#">Swiper Vue</a></span>
+
+</div>
+<div class="docs">
+    <p class="topic">Resources</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+
+
+
+
+<div class="docs">
+    <p class="topic">Premium</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+<div class="docs sup">
+    <p class="topic">Support</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+<div class="docs">
+    <p class="topic">Compare</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+
+
+
+
+</div>
+
+<span class="copyright">
+
+  <p class="copy-subs">All product names, logos and brands are property of their respective owners.</p>
+
+  <p class="copy-subs">Copyright © 2026 Jimmy by </p>
+  
+</span>
+
+
+</div>
+
+<!-- Footer close -->
+</footer>
+
+
+
+<!-- App close -->
+</div>
+
+
+
+
+
+
+    <script src="js/swiper-bundle.min.js" ></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
@@ -82,5 +1058,5 @@ rel="stylesheet">
       nomodule
       src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"
     ></script>
-</body>
+  </body>
 </html>
