@@ -9,7 +9,7 @@
 }
 
 .ccc{
-  max-width: 1521px;
+  max-width: 1536px;
 
 }
 
@@ -466,7 +466,7 @@ color: #82868A;
 
 .quote{
 background-color: #0D1014;
-max-width: 1521px;
+width: 1536px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -541,7 +541,7 @@ font-size: clamp(1rem, 2vw, 1.5rem);
 
 
 .build{
-  max-width: 1521px;
+  max-width: 1536px;
   max-height: 661px;
   display: flex;
   flex-direction: column;
@@ -754,7 +754,7 @@ color:#fff;
 
 
 .banner{
-max-width: 1521px;
+max-width: 1536px;
 margin-top: 150px;
 margin-bottom: 150px;
 display: flex;
@@ -863,7 +863,7 @@ border-radius: 20px;
 
 /* sliding/testy */
 .ccc{
-width: 1521px;
+width: 1536px;
 height: 800px;
 }
 
@@ -949,7 +949,7 @@ height: 800px;
 
 
  .trust{
-max-width: 1521px;
+max-width: 1536px;
 max-height: 800px;
 margin-top: 150px;
 margin-bottom: 150px;
