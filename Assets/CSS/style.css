@@ -470,6 +470,7 @@ width: 1536px;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-top: 70px;
 
 }
 
@@ -785,6 +786,11 @@ gap: 32px;
   gap: 32px;
 }
 
+.banleft:hover{
+background: #ffffff07;
+transition: all .3s;
+}
+
 
 .ban-left-logo{
   height: 96px;
@@ -820,6 +826,11 @@ text-align: center;
   gap: 32px;
 }
 
+.banright:hover{
+background: #ffffff07;
+transition: all .3s;
+}
+
 
 .ban-right-logo{
   height: 96px;
@@ -848,131 +859,170 @@ border-radius: 20px;
 
 
 
+/* carousel video slide*/
 
-/* carousel */
-
-.carousel-cards {
-    width:100%;
-    max-width:1536px;
-  overflow-x: auto;
-  margin: 3em auto;
-  display: flex;
-  gap: 1em;
-  scroll-behavior: smooth;
-  margin-left: 0px;
-  anchor-name: --carousels;
-  scroll-snap-type: x mandatory;
-  scroll-marker-group: after;
-  display: flex;
- 
-
-  
+/* sliding/testy */
+.ccc{
+width: 1536px;
+height: 800px;
 }
 
-.carousel-cards::scroll-marker-group {
-  display: flex;
-  justify-content: center;
-  gap: 2px;
-  
-  
-}
 
-.card::scroll-marker {
-  content: "";
-  height: 10px;
-  width: 10px;
-  background-color: #484848;
-  border-radius: 50%;
-  margin-top: -30px;
+ .swiper {
+  width: 100%;
+            min-width: 768px;
+        height:500px;
+      }
 
-  
-  
-}
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #050505;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
-.card::scroll-marker:target-current {
-  background-color: #5a5af7;
-  
-  
-}
-
-.carousel-cards::-webkit-scrollbar {
-  display: none;
-  
-}
-
-.carousel-cards::scroll-button(right),
-.carousel-cards::scroll-button(left) {
-    display: none;
-  content: "→";
-  border: none;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+10,419ad6+21,419ad6+21,419ad6+30,3a84c3+37,3a84c3+39,3a84c3+48,3a84c3+48,6199c7+50,4bb8f0+52,4bb8f0+52,419ad6+59,3a8bc2+84,26558b+100 */
-  background: linear-gradient(
-    135deg,
-    #cedbe9 0%,
-    #aac5de 10%,
-    #419ad6 21%,
-    #419ad6 21%,
-    #419ad6 30%,
-    #3a84c3 37%,
-    #3a84c3 39%,
-    #3a84c3 48%,
-    #3a84c3 48%,
-    #6199c7 50%,
-    #4bb8f0 52%,
-    #4bb8f0 52%,
-    #419ad6 59%,
-    #3a8bc2 84%,
-    #26558b 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-  background-color: #2020ea;
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 900;
-  color: bisque;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  padding-bottom: 5px;
-  cursor: pointer;
-  position: fixed;
-  position-anchor: --carousels;
-  position-area: right center;
-  translate: 130%;
-  
-  
-}
-
-.carousel-cards::scroll-button(right):disabled,
-.carousel-cards::scroll-button(left):disabled {
-  opacity: 0.5;
-  cursor: auto;
-    display: none;
-  
-}
-
-.carousel-cards::scroll-button(left) {
-  content: "←";
-  position-area: left center;
-  translate: -150%;
-   display: none;
-  
-}
-
-.card {
-  flex: 0 0 15em;
-  border-radius: 0.5em;
-  text-align: center;
-  align-content: center;
-  scroll-snap-align: start;
-  
- 
-}
-
-.card img {
-    animation: slide 11s linear infinite alternate;
+      .swiper-slide img {
+        display: block;
+         width: 100%;
+        height: 100%;
+        filter: saturate(2%);
+        object-fit: cover;
+          animation: slide 11s linear infinite alternate;
     animation-play-state: running;
+      }
+
+
+.swiper-slide:hover img {
+  transform: scale(1.08);
+  filter: brightness(80%);
 }
+
+
+      .autoplay-progress {
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+        z-index: 10;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: var(--swiper-theme-color);
+      }
+
+      .autoplay-progress svg {
+        --progress: 0;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        stroke-width: 4px;
+        stroke: var(--swiper-theme-color);
+        fill: none;
+        stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+        stroke-dasharray: 125.6;
+        transform: rotate(-90deg);
+      }
+
+
+
+
+
+ <!--Proven Trust-->
+
+
+
+
+.banner-wrap{
+
+
+}
+
+
+
+
+
+ .trust{
+max-width: 1536px;
+max-height: 800px;
+margin-top: 150px;
+margin-bottom: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+ 
+ }
+
+.trust-wrap{
+  max-height: 800px;
+max-width: 1216px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap: 32px;
+
+
+}
+
+
+
+ .trust-h{
+
+height: 53px;
+width: 1024px;
+text-align: center;
+margin-bottom: 34px;
+margin-top: 50px;
+color: #fff;
+font-size: clamp(2rem, 5vw, 2rem);
+
+ }
+
+
+.trust-sub{
+height: 36px;
+width: 1024px;
+text-align: center;
+color:#BFBFBF;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -60px;
+font-size: clamp(1rem, 3vw, 1.5rem);
+
+
+}
+
+
+.brand-wrap{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+height: 256px;
+width: 1216px;
+gap: 32px;
+flex-wrap: wrap;
+margin-top: 48px;
+
+
+}
+
+.brand{
+height: 64px;
+width: 64px;
+
+}
+
+
+
 
 /* Faq */
 
@@ -1057,6 +1107,14 @@ border-radius: 20px;
 .faqy{
   transition: all .5s;
 }
+
+
+
+
+
+
+
+
 
 /* Cards */
 .kards{
