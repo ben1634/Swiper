@@ -1,17 +1,12 @@
 
 .app {
+  display: block;
+  
+  max-width: 1521px;
 
-width: 100%;
-max-width: 1536px;
-margin: 0 auto;
-    min-width: 0;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
 }
-
 
 
 .nav-hero-wrap{
@@ -25,6 +20,13 @@ background: linear-gradient(135deg, rgba(21,32,43,1) 0%,rgba(3,22,43,1) 17%,rgba
 
 }
 
+
+
+
+.ccc{
+  width: 1536px;
+
+}
 
 
 /* Top Nav */
@@ -348,8 +350,7 @@ a {
 /*  hero Section*/
 
 header {
- width: 100%;
-max-width: 1216px;
+  width: 1216px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -368,8 +369,6 @@ font-size: 80px;
   background: linear-gradient(45deg, #66B2FF 60%,  #F4F9FF 30% );
   background-clip: text;
   color: transparent;
-  max-width:1216px;
-
   
 }
 .h-logwrap{
@@ -406,10 +405,7 @@ margin-bottom: 50px;
   align-items: center;
   justify-content: center;
   height: 600px;
-  width: 100%;
-max-width: 1536px;
-margin: 0 auto;
-
+  width: 1536px;
   padding: 0 32px;
   margin-top:96px;
   padding-bottom: 200px;
@@ -485,10 +481,7 @@ color: #82868A;
 
 .quote{
 background-color: #0D1014;
-width: 100%;
-max-width: 1536px;
-margin: 0 auto;
-
+width: 1536px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -500,8 +493,7 @@ margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-width: 100%;
-max-width: 1216px;
+  width: 1216px;
  background:#0D1014;
   height: 425px;
   border: 1px solid #ababab5b;
@@ -519,8 +511,6 @@ font-size: clamp(1rem, 2vw, 1.5rem);
   text-align: left;
   padding: 0;
   line-height: 1.6;
-  max-width:1216px;
-
 }
 
 
@@ -535,8 +525,6 @@ font-size: clamp(1rem, 2vw, 1.5rem);
   padding: 0;
    line-height: 1.6;
    margin-left: 40px;
-    max-width:1216px;
-
 }
 
 .pwrap{
@@ -568,10 +556,7 @@ font-size: clamp(1rem, 2vw, 1.5rem);
 
 
 .build{
-width: 100%;
-max-width: 1536px;
-margin: 0 auto;
-
+  max-width: 1536px;
   max-height: 661px;
   display: flex;
   flex-direction: column;
@@ -582,8 +567,7 @@ margin: 0 auto;
 
 
 .build-wrap{
-width: 100%;
-max-width: 1216px;
+width: 1216px;
 height: 469px;
 display: flex;
 flex-direction: column;
@@ -592,19 +576,13 @@ justify-content: center;
 }
 
 
-.build-h{ 
+.build-h{
 font-size: 40px;
 color: #fff;
 margin-bottom: 30px;
-width: 1024px;   
+width: 1024px;
 height: 53px;
 text-align: center;
-        
- 
-
-
-    
-    
 
 }
 
@@ -613,12 +591,9 @@ color:#BFBFBF;
 font-size: 20px;
 margin-bottom: 80px;
 text-align: center;
-width: 1024px;   
+width: 1024px;
 height: 72px;
 line-height: 1.6;
-      
-
-
 
 }
 
@@ -655,15 +630,18 @@ font-size: 1.2rem;
    
 }
 
+.dev:nth-child(6),
+.dev:nth-child(7){
 
+margin-left: 300px;
+
+}
 .bl{
 height: 64px;
 width: 64px;
 margin-bottom: 15px;
 
 }
-
-
 
 .logems{
 display: flex;
@@ -676,32 +654,32 @@ gap: 32px;
 }
 
 
-/* Cards2 Section */
-
-
-
 /* Cards2 */
 
-.kards2 {
- 
-    width:100%;
-    max-width:1216px;
-    margin:80px auto;
-    padding:0 20px;
-    box-sizing:border-box;
-}
+.kards2{
 
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+    width: 100%;
+    max-width: 1536px;
+    margin: 0 auto;
+
+}
   
 
 
 .box-wrapper{
         display:grid;
+           place-content: center;
 
-    grid-template-columns:repeat(auto-fit, minmax(170px,1fr));
+    grid-template-columns:repeat(5, 192px);
 
     gap:20px;
 
-    width:100%;
+      width:1216px;
 }
 
 .boxx {
@@ -737,11 +715,11 @@ gap: 32px;
 
 .kardp {
 color:#fff;
-    text-align:center;
+    text-align:justify;
     font-weight:900;
     font-size:clamp(2rem,5vw,3rem);
     margin-bottom:60px;
-    margin-top:250px;
+    margin-top: 260px;
 }
 
 .xboxwrap {
@@ -765,6 +743,7 @@ color:#fff;
 
 .tip{
   font-size: larger;
+  
 }
 
 
@@ -787,13 +766,13 @@ color:#fff;
 }
 
 
+
+
 /* Banner Section */
 
 
 .banner{
-width: 100%;
 max-width: 1536px;
-margin: 0 auto;
 margin-top: 150px;
 margin-bottom: 150px;
 display: flex;
@@ -803,7 +782,6 @@ justify-content: center;
 }
 
 .banner-wrap{
-width: 100%;
 max-width: 1216px;
 max-height: 800px;
 display: flex;
@@ -838,7 +816,7 @@ transition: all .3s;
 }
 
 .ban-tag1{
-max-width: 526px;
+width: 526px;
 height: 78px;
 font-size: 27px;
 text-align: center;
@@ -903,10 +881,7 @@ border-radius: 20px;
 
 /* sliding/testy */
 .ccc{
-width: 100%;
-max-width: 1536px;
-margin: 0 auto;
-
+width: 1536px;
 height: 800px;
 }
 
@@ -980,11 +955,19 @@ height: 800px;
  <!--Proven Trust-->
 
 
- .trust{
-width: 100%;
-max-width: 1536px;
-margin: 0 auto;
 
+
+.banner-wrap{
+
+
+}
+
+
+
+
+
+ .trust{
+max-width: 1536px;
 max-height: 800px;
 margin-top: 150px;
 margin-bottom: 150px;
@@ -997,7 +980,6 @@ justify-content: center;
 
 .trust-wrap{
   max-height: 800px;
-width: 100%;
 max-width: 1216px;
 display: flex;
 flex-direction: column;
@@ -1152,19 +1134,30 @@ width: 64px;
 
 
 
-/* Cards  Section*/
-
 /* Cards */
 .kards{
-    width:100%;
-    max-width:1216px;
+
+    max-width: 1536px;
+width: 100%;
+margin: 0 auto;
+
+
+}
+
+
+
+
+.kards-wrap{
+  
+    width:1216px;
     margin:0 auto;
+    height: 589px;
 
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+       place-content: center;
     gap:20px;
 
-    padding:20px;
     box-sizing:border-box;
 }
 
@@ -1173,10 +1166,8 @@ width: 64px;
     display:flex;
     align-items:center;
     gap:20px;
-
     width:100%;
-    min-height:180px;
-
+    min-height:178px;
     padding:24px;
 
     background:#191919;
@@ -1206,7 +1197,7 @@ width: 64px;
 
 
 .tophead{
-    max-width:1216px;
+    max-width:900px;
 
     margin:0 auto 40px;
 
@@ -1226,7 +1217,7 @@ width: 64px;
 
 }
 .lowhead{
-    max-width:1216px;
+    max-width:700px;
 
     margin:0 auto 60px;
 
@@ -1256,11 +1247,10 @@ width:100%;
 footer {
   
     width:100%;
-max-width: 1536px;
+    max-width:1536px;
 
     margin:80px auto;
 
-    padding:20px;
 
     box-sizing:border-box;
 
@@ -1276,8 +1266,10 @@ max-width: 1536px;
 
 .footer-wrap {
 
-    width:100%;
-    max-width: 1216px;
+
+      width:1216px;
+
+
     background:#0D1014;
 
     border:1px solid #ffffff30;
