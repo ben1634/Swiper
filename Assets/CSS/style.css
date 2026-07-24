@@ -1161,7 +1161,8 @@ width: 64px;
     align-items:center;
     gap:20px;
     width:100%;
-    min-height:180px;
+    min-height:178px;
+    max-width: 395px;
 
     padding:24px;
 
