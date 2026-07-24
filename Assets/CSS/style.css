@@ -14,13 +14,7 @@ margin: 0 auto;
 
 }
 
-.ccc{
- 
-width: 100%;
-max-width: 1536px;
-margin: 0 auto;
 
-}
 
 
 /* Top Nav */
@@ -1139,13 +1133,24 @@ width: 64px;
 
 
 /* Cards  2 Section*/
+
+.ccc{
+ 
+width: 100%;
+max-width: 1536px;
+margin: 0 auto;
+
+}
+
+
+
 .kards{
     width:100%;
     max-width:1216px;
     margin:0 auto;
     place-content: center;
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+    grid-template-columns:repeat(auto-fit, max(395px));
        place-content: center;
     gap:20px;
 
@@ -1162,7 +1167,6 @@ width: 64px;
     gap:20px;
     width:100%;
     min-height:178px;
-    max-width: 395px;
 
     padding:24px;
 
