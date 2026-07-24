@@ -10,8 +10,11 @@ font-family: Inter, Roboto, poppins, Raleway, sans-serif,  Fredoka;
 }
 
 body{
+ width: 100%;
   min-height: 100vh;
   min-height: 100dvh;
+  position: relative;
+display: flex;
  background-color:#0D1014;
   
 }
