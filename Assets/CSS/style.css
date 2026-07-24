@@ -803,7 +803,6 @@ justify-content: center;
 }
 
 .banner-wrap{
-    width:100%;
 max-width: 1216px;
 max-height: 800px;
 display: flex;
@@ -816,8 +815,7 @@ gap: 32px;
 
 .banleft{
 background-color: #0b0b0b;
-max-width: 592px;
-    width:100%;
+width: 592px;
 height: 608px;
 border-radius: 30px;
 display: flex;
@@ -857,8 +855,7 @@ border: 1px solid #616060ee;
 
 .banright{
 background-color: #0b0b0b;
-    width:100%;
-max-width: 592px;
+width: 592px;
 height: 608px;
 border-radius: 30px;
 display: flex;
