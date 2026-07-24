@@ -1148,7 +1148,6 @@ margin: 0 auto;
     width:100%;
     max-width:1216px;
     max-height: 589px;
-    margin:0 auto;
     place-content: center;
     display:grid;
     grid-template-columns:repeat(auto-fit, max(395px, 1fr));
