@@ -1144,30 +1144,30 @@ width: 64px;
 
 /* Cards  2 Section*/
 
-.ccc{
- 
+.kards{
+
+    max-width: 1536px;
 width: 100%;
-max-width: 1536px;
 margin: 0 auto;
+
 
 }
 
 
 
-.kards{
-    width:100%;
-    max-width:1216px;
-    max-height: 589px;
-    place-content: center;
+
+.kards-wrap{
+  
+    width:1216px;
+    margin:0 auto;
+    height: 589px;
+
     display:grid;
-    grid-template-columns:repeat(auto-fit, max(395px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
        place-content: center;
     gap:20px;
 
-    padding:20px;
     box-sizing:border-box;
-
-  
 }
 
 
@@ -1177,7 +1177,6 @@ margin: 0 auto;
     gap:20px;
     width:100%;
     min-height:178px;
-
     padding:24px;
 
     background:#191919;
