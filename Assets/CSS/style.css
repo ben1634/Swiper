@@ -1147,6 +1147,7 @@ margin: 0 auto;
 .kards{
     width:100%;
     max-width:1216px;
+    max-height: 589px;
     margin:0 auto;
     place-content: center;
     display:grid;
