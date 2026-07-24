@@ -1144,29 +1144,17 @@ width: 64px;
 
 /* Cards  2 Section*/
 
+/* Cards */
 .kards{
-
-    max-width: 1536px;
-width: 100%;
-margin: 0 auto;
-
-
-}
-
-
-
-
-.kards-wrap{
-  
-    width:1216px;
+    width:100%;
+    max-width:1216px;
     margin:0 auto;
-    height: 589px;
 
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
-       place-content: center;
     gap:20px;
 
+    padding:20px;
     box-sizing:border-box;
 }
 
@@ -1175,8 +1163,10 @@ margin: 0 auto;
     display:flex;
     align-items:center;
     gap:20px;
+
     width:100%;
-    min-height:178px;
+    min-height:180px;
+
     padding:24px;
 
     background:#191919;
