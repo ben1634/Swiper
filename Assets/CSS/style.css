@@ -1,20 +1,15 @@
 
-
 .app {
-  width: 100%;
+  display: block;
+  
   max-width: 1521px;
-  margin: 0 auto;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
 }
 
-
 .ccc{
-   width: 100%;
-    max-width: 1536px;
-    margin: 0 auto;
+  width: 1536px;
 
 }
 
@@ -340,8 +335,7 @@ a {
 /*  hero Section*/
 
 header {
-   width: 100%;
-    max-width: 1216px;
+  width: 1216px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -472,9 +466,7 @@ color: #82868A;
 
 .quote{
 background-color: #0D1014;
- width: 100%;
-    max-width: 1536px;
-    margin: 0 auto;
+width: 1536px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -486,8 +478,7 @@ margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
- width: 100%;
-    max-width: 1216px;
+  width: 1216px;
  background:#0D1014;
   height: 425px;
   border: 1px solid #ababab5b;
@@ -550,9 +541,7 @@ font-size: clamp(1rem, 2vw, 1.5rem);
 
 
 .build{
-   width: 100%;
-    max-width: 1536px;
-    margin: 0 auto;
+  max-width: 1536px;
   max-height: 661px;
   display: flex;
   flex-direction: column;
@@ -563,8 +552,7 @@ font-size: clamp(1rem, 2vw, 1.5rem);
 
 
 .build-wrap{
- width: 100%;
-    max-width: 1216px;
+width: 1216px;
 height: 469px;
 display: flex;
 flex-direction: column;
@@ -766,9 +754,7 @@ color:#fff;
 
 
 .banner{
-   width: 100%;
-    max-width: 1536px;
-    margin: 0 auto;
+max-width: 1536px;
 margin-top: 150px;
 margin-bottom: 150px;
 display: flex;
@@ -778,8 +764,7 @@ justify-content: center;
 }
 
 .banner-wrap{
- width: 100%;
-    max-width: 1216px;
+max-width: 1216px;
 max-height: 800px;
 display: flex;
 align-items: center;
@@ -878,9 +863,7 @@ border-radius: 20px;
 
 /* sliding/testy */
 .ccc{
- width: 100%;
-    max-width: 1536px;
-    margin: 0 auto;
+width: 1536px;
 height: 800px;
 }
 
@@ -966,9 +949,7 @@ height: 800px;
 
 
  .trust{
- width: 100%;
-    max-width: 1536px;
-    margin: 0 auto;
+max-width: 1536px;
 max-height: 800px;
 margin-top: 150px;
 margin-bottom: 150px;
@@ -981,8 +962,7 @@ justify-content: center;
 
 .trust-wrap{
   max-height: 800px;
- width: 100%;
-    max-width: 1216px;
+max-width: 1216px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -1156,7 +1136,6 @@ width: 64px;
     display:flex;
     align-items:center;
     gap:20px;
-    margin-right:24px;
     width:100%;
     min-height:180px;
 
@@ -1238,8 +1217,8 @@ width:100%;
 
 footer {
   
-     width: 100%;
-    max-width: 1216px;
+    width:100%;
+    max-width:1216px;
 
     margin:80px auto;
 
