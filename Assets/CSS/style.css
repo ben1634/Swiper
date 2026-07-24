@@ -1152,7 +1152,7 @@ margin: 0 auto;
     display:grid;
     grid-template-columns:repeat(auto-fit, max(395px, 1fr));
        place-content: center;
-    gap:20px 20px;
+    gap:20px;
 
     padding:20px;
     box-sizing:border-box;
