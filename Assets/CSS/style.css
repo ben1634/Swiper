@@ -1150,7 +1150,7 @@ margin: 0 auto;
     margin:0 auto;
     place-content: center;
     display:grid;
-    grid-template-columns:repeat(auto-fit, max(395px));
+    grid-template-columns:repeat(auto-fit, max(395px, 1fr));
        place-content: center;
     gap:20px;
 
