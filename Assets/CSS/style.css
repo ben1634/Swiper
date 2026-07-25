@@ -16,19 +16,13 @@ margin: 0 auto;
 
 .features{
     width:100%;
-    display:flex;
-    justify-content:center;
     padding:80px 20px;
+    box-sizing:border-box;
 }
 
 .features-wrap{
-
-    width:100%;
-    max-width:1216px;
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    width:min(100%,1216px);
+    margin-inline:auto;
 }
 
 .features-title{
