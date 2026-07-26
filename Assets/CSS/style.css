@@ -557,7 +557,6 @@ background-color: #5caeff;
 
 .quote{
 background-color: #0D1014;
-width: 100%;
 width: 1536px;
 margin: 0 auto;
 
@@ -1051,16 +1050,11 @@ transform: rotate(-90deg);
 
   width: 1536px;
   margin-inline: auto;
-  
-    box-sizing:border-box;
-
+ box-sizing:border-box;
 max-height: 800px;
 margin-top: 150px;
 margin-bottom: 150px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+
 
 }
 
