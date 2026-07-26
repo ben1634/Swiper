@@ -91,6 +91,7 @@ background:wheat;
 
 
 .nav-hero-wrap{
+    margin-top: -8px;
   height: auto;
       width: 1536px;
   margin-inline: auto;
@@ -103,7 +104,7 @@ background: linear-gradient(135deg, rgba(21,32,43,1) 0%,rgba(3,22,43,1) 17%,rgba
 /* Top Nav */
 
 .top-wrap{
-margin-top: 8px;
+  padding-top: 20px;
 display: flex;
 max-width: 1521px;
 align-items: center;
