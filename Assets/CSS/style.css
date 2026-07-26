@@ -16,6 +16,7 @@ background:wheat;
 
 .features-wrap{
       max-width: 1216px;
+  max-height:640px;
   margin-inline: auto;
     display:flex;
     flex-direction:column;
