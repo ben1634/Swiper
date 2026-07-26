@@ -1220,97 +1220,98 @@ transition: all .5s;
 
 /* Cards  Section*/
 
+
 /* Cards */
 .kards{
     width:100%;
     max-width:1216px;
-margin:0 auto;
+    margin:0 auto;
 
-display:grid;
-grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
-gap:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+    gap:20px;
 
     padding:20px;
-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 
 .box{
-display:flex;
-align-items:center;
-gap:20px;
+    display:flex;
+    align-items:center;
+    gap:20px;
 
-width:100%;
+    width:100%;
     min-height:180px;
 
-padding:24px;
+    padding:24px;
 
-background:#191919;
-border-radius:12px;
+    background:#191919;
+    border-radius:12px;
 
-transition:.3s;
+    transition:.3s;
 }
 .box:hover{
-background:#2a2a2a;
+    background:#2a2a2a;
 }
 
 .pic-log{
-width:clamp(40px,6vw,48px);
-height:clamp(40px,6vw,48px);
+    width:clamp(40px,6vw,48px);
+    height:clamp(40px,6vw,48px);
 
-flex-shrink:0;
+    flex-shrink:0;
 }
 .tagwrap{
-flex:1;
+    flex:1;
 }
 
 .pan{
-margin-bottom:12px;
-font-size:clamp(1.1rem,2vw,1.3rem);
-font-weight:600;
+    margin-bottom:12px;
+    font-size:clamp(1.1rem,2vw,1.3rem);
+    font-weight:600;
 }
 
 
 .tophead{
-    max-width:1216px;
+    max-width:900px;
 
-margin:0 auto 40px;
+    margin:0 auto 40px;
 
-text-align:center;
+    text-align:center;
 
-font-size:clamp(2rem,5vw,3rem);
-color: #fff;
+    font-size:clamp(2rem,5vw,3rem);
+    color: #fff;
 }
 
 .topwrap {
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 50px;
-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
 
 
 }
 .lowhead{
-    max-width:1216px;
+    max-width:700px;
 
-margin:0 auto 60px;
+    margin:0 auto 60px;
 
-text-align:center;
+    text-align:center;
 
-font-size:clamp(1rem,2vw,1.25rem);
+    font-size:clamp(1rem,2vw,1.25rem);
 
-line-height:1.7;
-color: #BFBFBF;
+    line-height:1.7;
+    color: #BFBFBF;
 }
 .lowrap {
 width:100%;
-max-width:1216px;
-margin:auto;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
+    max-width:1216px;
+    margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
 
