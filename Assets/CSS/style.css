@@ -1301,11 +1301,11 @@ margin-top: 50px;
 
 }
 .lowhead{
-    max-width:1216px;
+    width:1216px;
 
 text-align:center;
 
-font-size:clamp(1rem,5vw,1rem);
+font-size:1rem;
 
 line-height:1.7;
 color: #BFBFBF;
