@@ -1067,7 +1067,7 @@ justify-content: center;
 }
 
 .trust-wrap{
-max-height: 800px;
+height: 800px;
 width: 1216px;
 display: flex;
 flex-direction: column;
