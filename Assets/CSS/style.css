@@ -4,8 +4,12 @@
 
 
 .features{
-width:100%;
-     max-width:1536px;
+
+    width:100%;
+    max-width:1216px;
+    margin:80px auto;
+    padding:0 20px;
+    box-sizing:border-box;
 background:wheat;
 }
 
