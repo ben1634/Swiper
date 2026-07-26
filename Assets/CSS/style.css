@@ -1312,9 +1312,6 @@ line-height:1.7;
 color: #BFBFBF;
 }
 .lowrap {
-width:100%;
-max-width:1216px;
-margin:auto;
 display: flex;
 align-items: center;
 justify-content: center;
