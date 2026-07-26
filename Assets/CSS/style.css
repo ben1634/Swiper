@@ -91,7 +91,7 @@ background:wheat;
 
 
 .nav-hero-wrap{
-max-height: 727px;
+  height: auto;
       width: 1536px;
   margin-inline: auto;
 background: linear-gradient(135deg, rgba(21,32,43,1) 0%,rgba(3,22,43,1) 17%,rgba(27,46,94,1) 35%,rgba(8,59,114,1) 42%,rgba(9,44,86,1) 51%,rgba(9,41,73,1) 75%,rgba(8,55,81,1) 90%,rgba(9,30,51,1) 91%,rgba(6,22,40,1) 100%);
