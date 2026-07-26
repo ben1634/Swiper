@@ -1222,17 +1222,8 @@ transition: all .5s;
 
 /* Cards */
 .kards{
- width: 1536px;
-  margin-inline: auto;
-  
-    box-sizing:border-box;
-  height:838px;
-}
-
-
-.kard-wrap{
-    
-    width:1216px;
+    width:100%;
+    max-width:1216px;
 margin:0 auto;
 
 display:grid;
@@ -1289,29 +1280,38 @@ text-align:center;
 
 font-size:clamp(2rem,5vw,3rem);
 color: #fff;
-  margin-top: 50px;
+}
+
+.topwrap {
 display: flex;
 align-items: center;
 justify-content: center;
-  
+margin-top: 50px;
+flex-wrap: wrap;
+
+
 }
-
-
 .lowhead{
     max-width:1216px;
 
+margin:0 auto 60px;
+
 text-align:center;
 
-font-size:1rem;
+font-size:clamp(1rem,2vw,1.25rem);
 
 line-height:1.7;
 color: #BFBFBF;
-  margin-bottom:20px;
-  padding-bottom:20px;
+}
+.lowrap {
+width:100%;
+max-width:1216px;
+margin:auto;
 display: flex;
 align-items: center;
 justify-content: center;
-  
+flex-wrap: wrap;
+
 }
 
 
