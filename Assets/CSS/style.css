@@ -1042,14 +1042,14 @@ transform: rotate(-90deg);
 
 
 .trust{
+  width:100%;
   max-width: 1536px;
+  margin: 0 auto;
 max-height: 800px;
 margin-top: 250px;
 margin-bottom: 150px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+
+
 
 
 }
