@@ -872,7 +872,6 @@ color:#fff;
 
 .banner{
 width: 100%;
-max-width: 1536px;
 margin: 0 auto;
 margin-top: 150px;
 margin-bottom: 150px;
@@ -884,7 +883,7 @@ justify-content: center;
 
 .banner-wrap{
   width:100%;
-max-width: 1216px;
+width: 1216px;
 max-height: 800px;
 display: flex;
 align-items: center;
@@ -960,7 +959,7 @@ width: 96px;
 }
 
 .ban-tag2{
-width: 526px;
+max-width: 526px;
 height: 78px;
 font-size: 27px;
 text-align: center;
