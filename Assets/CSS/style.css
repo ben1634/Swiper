@@ -23,8 +23,6 @@
 .features-subtitle{
 
     width:100%;
-    max-width:700px;
-
     text-align:center;
     color:#bfbfbf;
     line-height:1.6;
@@ -34,7 +32,7 @@
 .features-btn{
 
     padding:16px 32px;
-
+width:100%;
     border:none;
     border-radius:40px;
 
