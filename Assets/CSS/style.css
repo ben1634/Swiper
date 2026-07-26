@@ -4,12 +4,15 @@
 
 
 .features{
-
+width:100%;
+     max-width:1536px;
+    margin: 0 auto;
 }
 
 .features-wrap{
-    width:min(100%,1216px);
-    margin-inline:auto;
+width:100%;
+    max-width:1216px;
+
 }
 
 .features-title{
