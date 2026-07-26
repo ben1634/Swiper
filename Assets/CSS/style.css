@@ -7,7 +7,7 @@
 
 .features{
 
-  max-width: 1600px;
+  width: 1536px;
   margin-inline: auto;
   
     box-sizing:border-box;
@@ -15,8 +15,7 @@ background:wheat;
 }
 
 .features-wrap{
-width:100%;
-      max-width: 1600px;
+      max-width: 1216px;
   margin-inline: auto;
     display:flex;
     flex-direction:column;
@@ -98,7 +97,7 @@ width:100%;
 
 .nav-hero-wrap{
 max-height: 727px;
-      max-width: 1600px;
+      width: 1536px;
   margin-inline: auto;
 width: 100%;
 background: linear-gradient(135deg, rgba(21,32,43,1) 0%,rgba(3,22,43,1) 17%,rgba(27,46,94,1) 35%,rgba(8,59,114,1) 42%,rgba(9,44,86,1) 51%,rgba(9,41,73,1) 75%,rgba(8,55,81,1) 90%,rgba(9,30,51,1) 91%,rgba(6,22,40,1) 100%);
@@ -150,8 +149,7 @@ width: 100%;
 
 .navbar {
 margin-top: 8px;
-width:100%;
-max-width:659px;
+width:659px;
 
 margin:8px auto;
 
@@ -428,8 +426,7 @@ color: #9eb3bf;
 /*  hero Section*/
 
 header {
- width: 100%;
-max-width: 1216px;
+ width: 1216px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -566,7 +563,7 @@ background-color: #5caeff;
 .quote{
 background-color: #0D1014;
 width: 100%;
-max-width: 1536px;
+width: 1536px;
 margin: 0 auto;
 
 display: flex;
@@ -580,8 +577,7 @@ margin-top: 70px;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 100%;
-max-width: 1216px;
+width: 1216px;
 background:#0D1014;
 height: 425px;
 border: 1px solid #ababab5b;
@@ -648,8 +644,7 @@ margin-top: -33px;
 
 
 .build{
-width: 100%;
-max-width: 1536px;
+width: 1536px;
 margin: 0 auto;
 
 max-height: 661px;
@@ -662,8 +657,7 @@ margin-top: 250px;
 
 
 .build-wrap{
-width: 100%;
-max-width: 1216px;
+width: 1216px;
 height: 469px;
 display: flex;
 flex-direction: column;
@@ -764,8 +758,7 @@ gap: 32px;
 
 .kards2 {
  
-    width:100%;
-    max-width:1216px;
+    width:1216px;
     margin:80px auto;
     padding:0 20px;
     box-sizing:border-box;
@@ -983,8 +976,7 @@ border: 1px solid #616060ee;
 
 /* sliding/testy */
 .ccc{
-width: 100%;
-max-width: 1536px;
+width: 1536px;
 margin: 0 auto;
 
 height: 800px;
@@ -1061,8 +1053,7 @@ transform: rotate(-90deg);
 
 
 .trust{
-width: 100%;
-max-width: 1536px;
+width: 1536px;
 margin: 0 auto;
 
 max-height: 800px;
@@ -1077,8 +1068,7 @@ justify-content: center;
 
 .trust-wrap{
 max-height: 800px;
-width: 100%;
-max-width: 1216px;
+width: 1216px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -1236,8 +1226,8 @@ transition: all .5s;
 
 /* Cards */
 .kards{
-    width:100%;
-    max-width:1216px;
+    
+    width:1216px;
 margin:0 auto;
 
 display:grid;
@@ -1335,8 +1325,7 @@ flex-wrap: wrap;
 
 footer {
 
-width:100%;
-max-width: 1536px;
+width: 1536px;
 
 margin:80px auto;
 
@@ -1355,9 +1344,7 @@ animation-range:entry 0;
 }
 
 .footer-wrap {
-
-    width:100%;
-    max-width: 1216px;
+width: 1216px;
 background:#0D1014;
 
 border:1px solid #ffffff30;
