@@ -1042,26 +1042,27 @@ transform: rotate(-90deg);
 
 
 .trust{
-  width:100%;
-  max-width: 1536px;
-  margin: 0 auto;
+max-width: 1536px;
 max-height: 800px;
-margin-top: 250px;
+margin-top: 150px;
 margin-bottom: 150px;
-
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
 
 
 }
 
 .trust-wrap{
-height: 800px;
-width: 1216px;
+  max-height: 800px;
+max-width: 1216px;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-  gap:32px;
+gap: 32px;
 
 }
 
