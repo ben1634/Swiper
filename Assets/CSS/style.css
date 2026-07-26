@@ -883,6 +883,7 @@ justify-content: center;
 }
 
 .banner-wrap{
+  width:100%;
 max-width: 1216px;
 max-height: 800px;
 display: flex;
@@ -1497,6 +1498,26 @@ padding-top:5px;
 
 
 /* MEDIA QUERIES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 480px){
