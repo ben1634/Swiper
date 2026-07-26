@@ -13,6 +13,8 @@ body{
  width: 100%;
   min-height: 100vh;
   min-height: 100dvh;
+ display:flex;
+ flex-direction:column;
   position: relative;
  background-color:#0D1014;
  
