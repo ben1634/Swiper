@@ -6,12 +6,12 @@
 .features{
 width:100%;
      max-width:1536px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .features-wrap{
 width:100%;
-    max-width:1216px;
+    max-width:100%;
 
 }
 
