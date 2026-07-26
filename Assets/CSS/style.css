@@ -1064,8 +1064,7 @@ transform: rotate(-90deg);
 .trust{
 width: 100%;
 max-width: 1536px;
-margin: 0 auto;
-
+margin: auto;
 max-height: 800px;
 margin-top: 150px;
 margin-bottom: 150px;
