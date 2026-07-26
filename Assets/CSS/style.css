@@ -1306,7 +1306,7 @@ margin:0 auto 60px;
 
 text-align:center;
 
-font-size:clamp(1rem,2vw,1.25rem);
+font-size:clamp(1rem,2vw,1rem);
 
 line-height:1.7;
 color: #BFBFBF;
