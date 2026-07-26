@@ -1048,8 +1048,11 @@ transform: rotate(-90deg);
 
 
 .trust{
-width: 1536px;
-margin: 0 auto;
+
+  width: 1536px;
+  margin-inline: auto;
+  
+    box-sizing:border-box;
 
 max-height: 800px;
 margin-top: 150px;
