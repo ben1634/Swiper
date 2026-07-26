@@ -1,9 +1,4 @@
 
-.app {
-
-}
-
-
 
 .features{
 
@@ -1047,17 +1042,16 @@ transform: rotate(-90deg);
 
 
 .trust{
-
   width: 1536px;
- box-sizing:border-box;
+  margin: 0 auto;
 max-height: 800px;
-margin-top: 150px;
+margin-top: 250px;
 margin-bottom: 150px;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
+ box-sizing:border-box;
 
 }
 
@@ -1068,8 +1062,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-gap: 32px;
-
 
 }
 
@@ -1109,7 +1101,7 @@ align-items: center;
 justify-content:center;
 height: 256px;
 width: 1216px;
-gap: 32px;
+gap: 24px 24px;
 flex-wrap: wrap;
 margin-top: 48px;
 
