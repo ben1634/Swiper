@@ -1308,6 +1308,8 @@ font-size:clamp(1rem,5vw,1rem);
 
 line-height:1.7;
 color: #BFBFBF;
+  margin-bottom:20px;
+  padding-bottom:20px;
 }
 .lowrap {
 display: flex;
