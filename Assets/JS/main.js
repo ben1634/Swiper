@@ -22,7 +22,12 @@ const navToggle = document.querySelector(".navbar");
 
 
 
-
+let docWidth = document.documentElement.clientWidth;
+document.querySelectorAll('*').forEach(el => {
+  if (el.scrollWidth > docWidth) {
+    console.log(el, 'scrollWidth:', el.scrollWidth, 'vs viewport:', docWidth);
+  }
+});
 
 
  const progressCircle = document.querySelector('.autoplay-progress svg');
