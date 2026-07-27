@@ -1117,6 +1117,84 @@ width: 64px;
 
 }
 
+<!--Sponsor Section-->
+
+
+.spons{
+max-width: 1536px;
+max-height: 800px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+ margin: 150px auto;
+  right:0;
+  left:0;
+
+
+
+}
+
+.spons-wrap{
+  max-height: 800px;
+max-width: 1216px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap: 32px;
+
+}
+
+
+
+.spons-h{
+
+height: 53px;
+width: 1024px;
+text-align: center;
+margin-bottom: 34px;
+margin-top: 50px;
+color: #fff;
+font-size: clamp(2rem, 5vw, 2rem);
+
+}
+
+
+.spons-sub{
+height: 36px;
+width: 1024px;
+text-align: center;
+color:#BFBFBF;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -60px;
+font-size: clamp(1rem, 3vw, 1.5rem);
+
+
+}
+
+
+.brandy-wrap{
+display: flex;
+align-items: center;
+justify-content:center;
+height: 256px;
+width: 1216px;
+gap: 24px 24px;
+flex-wrap: wrap;
+margin-top: 48px;
+
+
+}
+
+.brandy{
+height: 64px;
+width: 64px;
+
+}
+
 
 
 
