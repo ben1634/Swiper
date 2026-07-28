@@ -1090,7 +1090,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-gap: 24px;
+gap: 32px;
 
 
 }
@@ -1103,6 +1103,7 @@ width: 1024px;
 text-align: center;
 margin-bottom: 34px;
 margin-top: 50px;
+   margin-bottom:24px
 color: #fff;
 font-size: clamp(2rem, 5vw, 2rem);
 
@@ -1117,7 +1118,7 @@ color:#BFBFBF;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-top: -60px;
+margin-top: -34px;
 font-size: clamp(1rem, 3vw, 1.5rem);
 
 
