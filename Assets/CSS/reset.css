@@ -10,14 +10,11 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+
+
   min-height: 100vh;
   min-height: 100dvh;
-  position: relative;
-  background-color: #ffdb0f;
+  background-color: #113d01;
 
 
 }
@@ -35,11 +32,9 @@ select{
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+object-fit: contain;
 
-    max-width:100%;
-
-    height:auto;
 
 }
 
