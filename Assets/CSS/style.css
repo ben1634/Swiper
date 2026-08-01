@@ -937,6 +937,7 @@ transition: all .3s;
 .ban-left-logo{
   min-height: 96px;
   max-width: 96px;
+   margin-top: 24px;
 }
 
 .ban-tag1{
@@ -982,6 +983,7 @@ transition: all .3s;
 .ban-right-logo{
   min-height: 96px;
   max-width: 96px;
+   margin-top: 24px;
 }
 
 .ban-tag2{
@@ -1805,6 +1807,15 @@ font-size: 1.2rem;
 
 }
 
+
+ .ban-left-logo{
+  margin-top: 24px;
+ } 
+ .ban-right-logo{
+  margin-top: 24px;
+ } 
+
+  
   
 
 .eva{
