@@ -1850,6 +1850,19 @@ margin-bottom: 0px;
 }
 
 
+.q1{
+max-width: 347px;
+max-height: 189px;
+
+}
+
+.q2{
+max-width: 347px;
+max-height: 189px;
+
+}
+
+  
 .ccc{
 margin-top: 50px;
 
@@ -1885,7 +1898,8 @@ min-height: 774px;
 
 .bigswipe{
   transform: translateX(20%);
-
+  max-height: 96px;
+  max-width: 96px;
 }
 
 .btns{
@@ -1895,6 +1909,7 @@ min-height: 774px;
 
 .swipe{
 font-size: clamp(3rem, 7vw, 3rem);
+    max-width: 195px;
 
 }
 
@@ -1902,7 +1917,38 @@ font-size: clamp(3rem, 7vw, 3rem);
   flex-direction: column;
 }
 
+.eva-h{
 
+max-width: 508px;
+}
+.eva-sub{
+
+max-width: 508px;
+
+}
+
+.kardp{
+
+  max-width: 508px;
+
+}
+
+.build-h{
+max-width: 508px;
+
+
+}
+
+
+.build-sub{
+max-width: 508px;
+
+
+}
+
+
+
+  
 
 }
 
