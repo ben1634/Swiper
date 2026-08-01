@@ -1703,6 +1703,7 @@ font-size: 14px;
   justify-content: space-around;
 }
 .navlinks {
+   gap:10px;
 margin-left: 0;
 justify-content: center;
 right: 0;
