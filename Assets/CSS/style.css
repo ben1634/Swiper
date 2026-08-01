@@ -915,19 +915,17 @@ justify-content: center;
 
 
 .ban-h{
-font-size: clamp(2rem, 2vw, 2.5rem);
-color: #fff;
-margin-bottom: 30px;
-max-width: 1024px;
-max-height: 53px;
 height: 53px;
+max-width: 1024px;
 text-align: center;
-flex-wrap: wrap;
-
+margin-top: 50px;
+color: #fff;
+font-size: clamp(2rem, 5vw, 2rem);
+margin:  auto;
+margin-bottom: 30px;
 }
 
 .ban-sub{
-
 font-size: clamp(1.2rem, 2vw, 1.2rem);
 color: #BFBFBF;
 margin-bottom: 30px;
@@ -936,7 +934,10 @@ max-height: 53px;
 height: 53px;
 text-align: center;
 flex-wrap: wrap;
-
+margin: 0 auto;
+margin-top: -30px;
+margin:  auto;
+margin-bottom: 50px;
 }
 
 
