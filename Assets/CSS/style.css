@@ -4,13 +4,6 @@ p{
 }
 
 
-
-
-
-
-
-
-
 /* Top Nav */
 
 .top-wrap{
@@ -1868,7 +1861,7 @@ min-height: 774px;
 display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px 30px;
+  gap: 30px 50px;
   margin-top: -200px;
   margin-bottom: 50px;
     max-height: 128px;
@@ -1924,10 +1917,6 @@ max-width: 508px;
 
 
 }
-
-
-
-  
 
 }
 
