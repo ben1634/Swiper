@@ -1871,6 +1871,7 @@ min-height: 128px;
   font-size: clamp(2.25rem, 5vw, 2.25rem);
 font-weight: 500;
 max-width: 508px;
+margin-bottom: 0;
 }
 
 
@@ -1878,6 +1879,8 @@ max-width: 508px;
  font-size: clamp(1.125rem, 2vw, 1.125rem);
 font-weight: 400; 
 max-width: 508px;
+margin-bottom: 0;
+
 
 
 }
@@ -1895,7 +1898,7 @@ max-width: 508px;
 max-width:1216px;  
 box-sizing: border-box;
   margin: 0 auto;
-    min-height: 589px;
+    min-height: 350px;
 display: flex;
  flex-wrap: wrap;
    display:grid;
@@ -1914,7 +1917,6 @@ display: flex;
  transform: translateX(0px);
 
 }
-
 
 
 /* Cards 2 Section */
