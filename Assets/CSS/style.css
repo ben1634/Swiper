@@ -82,7 +82,8 @@ margin-left: -20px;
 gap:20px;
 list-style:none;
 margin:0;
-padding:0; 
+padding:0;
+max-width: auto;
 }
 
 
@@ -1023,7 +1024,7 @@ max-width:1216px;
 padding-inline: 32px;
 box-sizing: border-box;
 margin: 0 auto;
-min-height: 800px;
+min-height: 600px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -1101,7 +1102,7 @@ transition: all .3s;
 
 
 .ban-left-logo{
-  min-height: 96px;
+  max-height: 96px;
   max-width: 96px;
    margin-top: 24px;
 }
@@ -1151,7 +1152,7 @@ transition: all .3s;
 
 
 .ban-right-logo{
-  min-height: 96px;
+  max-height: 96px;
   max-width: 96px;
    margin-top: 24px;
 }
@@ -1174,7 +1175,7 @@ text-align: center;
 
 .ban-right-pic{
   max-width: 526px;
-  min-height: 304px;
+  max-height: 304px;
 border-radius: 20px;
  border: 1px solid #616060ee;
 }
@@ -1736,13 +1737,15 @@ min-height: 700px;
 }
 
 
+
+
 .h-logwrap{
 display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px 20px;
   margin-top: -200px;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
   max-width: 472px;
     max-height: 128px;
     flex-wrap: nowrap;
@@ -1766,7 +1769,7 @@ font-size: clamp(3rem, 7vw, 3rem);
   align-items: center;
   justify-content: center;
   text-align:flex-start;
- font-size: 1.5rem;
+ font-size: 2rem;
  font-weight: 400;
  max-width: 896px;
   margin-bottom: 0px; 
@@ -1911,8 +1914,8 @@ box-sizing: border-box;
     min-height: 589px;
 display: flex;
  flex-wrap: wrap;
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
+   display:grid;
+    grid-template-columns:repeat(3, 1fr); 
   place-content: center;
     gap:20px;
     box-sizing:border-box;
@@ -2192,6 +2195,9 @@ font-size: clamp(0.5rem, 2vw, 0.5rem);
 
 
 }
+
+
+
 
 
 
@@ -2717,30 +2723,16 @@ font-size: clamp(0.5rem, 2vw, 0.5rem);
 
 
 
-
-
-/* Mobile */
-@media (max-width: 480px) {
-
-}
-
-
-
-
-
-
-/* Large phones */
-@media (max-width: 640px) {
-
-}
-
-
-
-
-
 /* Tablets */
 @media (max-width: 768px) {
 
+
+
+
+
+
+
+  
 }
 
 
