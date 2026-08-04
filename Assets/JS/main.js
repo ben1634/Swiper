@@ -39,7 +39,7 @@ document.getElementById("release-date").textContent =
 
 
 
- const progressCircle = document.querySelector('.autoplay-progress svg');
+ const progressCircl = document.querySelector('.autoplay-progress svg');
       const progressContent = document.querySelector('.autoplay-progress span');
       var swiper = new Swiper('.mySwiper', {
         spaceBetween: 30,
