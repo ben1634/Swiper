@@ -24,8 +24,22 @@ const navToggle = document.querySelector(".navbar");
 
 
 
+const version = "14.0.5";
 
- const progressCircle = document.querySelector('.autoplay-progress svg');
+const today = new Date();
+
+const options = {
+  month: "long",
+  day: "numeric",
+  year: "numeric"
+};
+
+document.getElementById("release-date").textContent =
+`v${version} released on ${today.toLocaleDateString("en-US", options)}`;
+
+
+
+ const progressCircl = document.querySelector('.autoplay-progress svg');
       const progressContent = document.querySelector('.autoplay-progress span');
       var swiper = new Swiper('.mySwiper', {
         spaceBetween: 30,
@@ -67,11 +81,6 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
       },
     });
-
-
-
-
-
 
 
 
@@ -197,139 +206,3 @@ window.addEventListener("load", () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-// Hamburger
-hamBtn.addEventListener("click", function () {
-  hamBtn.classList.toggle("active");
-  navbar.classList.toggle("active");
-  navlinks.classList.toggle("active");
-});
-
-// Open
-
-searchHead.classList.add("active");
-document.body.style.overflow = "hidden";
-
-// Close
-searchHead.classList.remove("active");
-document.body.style.overflow = "";
-
-// Click outside the search box closes it
-searchHead.addEventListener("click", (event) => {
-  if (event.target === searchOverlay) {
-    searchHead.classList.remove("active");
-    searchBar.value = "";
-  }
-});
-
-// Escape key closes it
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") {
-    searchHead.classList.remove("active");
-    searchBar.value = "";
-  }
-});
-
-// sidebar2
-
-sideToggle.addEventListener("click", (event) => {
-  sidebar2.classList.toggle("open");
-});
-
-
-
-// Second side panel display
-
-sidelinks.forEach((sidelink) => {
-  sidelink.addEventListener("click", () => {
-    const panel = sidelink.dataset.panel;
-
-    switch (panel) {
-      case "dashboard":
-        sidebarContent.innerHTML = `
-                    <h2 class="topic">Dashboard</h2>
-                    <p>Recent activity...</p>
-                `;
-        break;
-
-      case "analytics":
-        sidebarContent.innerHTML = `
-                    <h2 class="topic">Search</h2>
-                    <input type="search" placeholder="">
-                `;
-        break;
-
-      case "projects":
-        sidebarContent.innerHTML = `
-                    <h2 class="topic">Projects</h2>
-                    <ul>
-                        <li class="topic">Project A</li>
-                        <li class="topic">Project B</li>
-                    </ul>
-                `;
-        break;
-
-      case "settings":
-        sidebarContent.innerHTML = `
-                    <h2 class="topic">Settings</h2>
-                    <button>Theme</button>
-                `;
-        break;
-      case "technology":
-        sidebarContent.innerHTML = `
-                    <h2 class="topic">Technology</h2>
-                    <p>Explore the latest technology trends...</p>
-                `;
-        break;
-    }
-  });
-});
-
-/*
-questions.forEach(question => {
-  question.addEventListener("click", () => {
-
-    const answer =
-      question.nextElementSibling.querySelector(".answer");
-
-    answer.classList.toggle("show");
-  });
-});
-
-
-faqIcon.addEventListener("click", function(e) {
-faqIcon.classList.toggle('active')
-
-
-})
-
-
-
-document.addEventListener("keydown", (event) => {
-    if (event.ctrlKey && event.key.toLowerCase() === "k") {
-        event.preventDefault();
-
-        searchHead.classList.add("active");
-        searchBar.focus();
-    }
-});
-
-
-
-
-*/
-
-// ctrl k
-
-console.log(searchBtn);
-console.log(searchHead);
-console.log(searchHead.classList);
