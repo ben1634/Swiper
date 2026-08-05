@@ -2419,6 +2419,10 @@ height: auto;
 }
 
 
+.qtl, .qtr{
+
+  display: none;
+}
 
 
 
