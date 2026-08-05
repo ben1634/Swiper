@@ -1577,7 +1577,10 @@ animation-range:entry 0;
 .footer-wrap {
 width: 100%;
 max-width:1216px; 
-min-height: 374px; 
+min-height: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;  
 margin: 0 auto;
 box-sizing: border-box;
 background: #191919;
