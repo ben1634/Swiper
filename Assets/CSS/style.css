@@ -2418,6 +2418,10 @@ height: auto;
   font-weight: 400;
 }
 
+.qtl, .qtr{
+
+  display: none;
+}
 
 
 
