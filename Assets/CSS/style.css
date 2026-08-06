@@ -616,7 +616,7 @@ flex-wrap: wrap;
 }
 
 .q1{
-
+margin-top: 16px;
   display: flex;
   font-weight: 400;
     max-width: 927px;
