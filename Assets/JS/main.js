@@ -107,28 +107,6 @@ document.addEventListener("keydown", (e) => {
 
 
 
-// Search Button
-
-searchBtn.addEventListener("click", function () {
-  searchHead.classList.toggle("active");
-});
-
-sideToggle.addEventListener("click", function () {
-  sidebar.classList.toggle("open");
-});
-
-outer.addEventListener("click", function () {
-  sidebar.classList.remove("open");
-});
-
-// Page-load-remove
-
-window.addEventListener("load", () => {
-  sidebar.classList.remove("open");
-});
-
-
-
 
 // FAQ
 
@@ -175,6 +153,26 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
+
+// Search Button
+
+searchBtn.addEventListener("click", function () {
+  searchHead.classList.toggle("active");
+});
+
+sideToggle.addEventListener("click", function () {
+  sidebar.classList.toggle("open");
+});
+
+outer.addEventListener("click", function () {
+  sidebar.classList.remove("open");
+});
+
+// Page-load-remove
+
+window.addEventListener("load", () => {
+  sidebar.classList.remove("open");
+});
 
 
 
