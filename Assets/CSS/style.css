@@ -1314,6 +1314,7 @@ display:grid;
 grid-template-columns:repeat(3, 1fr);
 place-content: center;
 gap:20px;
+  padding-inline: 32px;
 
 }
 
