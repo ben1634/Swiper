@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SWIPER CONTACT</title>
+  <title>SWIPER</title>
   <link rel="stylesheet" href="../Assets/CSS/reset.css">
   <link rel="stylesheet" href="../Assets/CSS/style.css">
+  <link rel="stylesheet" href="../Assets/CSS/contact.css"> 
   <link rel="stylesheet" href="../Assets/CSS/variables.css">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../Assets/CSS/swiper-bundle.min.css">
   <script src="../Assets/JS/main.js" defer></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,86 +20,296 @@
       <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet">
 
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+
+
   </head>
+
   <body>
-<div class="app">
 
-<aside class="sidebar">
+<!-- App open -->
+<!-- <div class="app"> -->
 
-  <header>
-<span class="logo">DarkCom</span>
 
-<button class="navy">
-<span class="material-symbols-outlined">
-arrow_back_ios
+
+
+<div class="nav-hero-wrap">
+  
+  <div class="top-wrap">
+    <div class="top-nav">
+   
+      
+         <img class="studio-img" src="../Assets/Icons/swiper-studio-logo.svg" alt="Swiper studio">
+        
+        <p class="s-tag">All-new Swiper Studio  V2 is here</p>
+   
+    </div>
+    
+  </div>
+  
+  
+  <!--Nav Menu-->
+  
+  <nav class="navbar">
+  
+  <!-- Logo -->
+  <div class="logo" title="home">
+    <a href="#"> <img class="logos" src="../Assets/Icons/swiper-logo.svg" alt="logo"></a>
+  </div>
+  
+  
+  
+  
+  <!-- Navigation Links -->
+  <ul class="navlinks">
+  
+  <li class="navlink active doc jack" title="Docs"><a href="index.html">Docs</a>
+  
+  <ul class="droplinks">
+    <li class="droplink capcom" title="Capcom">
+      Getting Started
+    </li>
+    <li class="droplink" title="Darkcom" >
+      Swiper Core/API</li>
+  
+  
+    <li class="droplink" title="Se-game" >
+      Swiper Element</li>
+  
+    <li class="droplink" title="Se-game" >
+      Swiper React</li>
+  
+    <li class="droplink" title="Se-game" >
+      Swiper Vue</li>
+  
+    <li class="droplink mcp" title="Se-game" >
+      Swiper MCP</li>
+  
+    <li class="droplink" title="Se-game" >
+      Changelog</li>
+  
+  
+  </ul>
+  
+  
+  
+  
+  </li>
+  <span class="conty">
+    
+  </span>
+  <li class="navlink con resources jack" title="Resources"><a href="Pages/about.html">Resources
+  
+  </a>
+  
+  <ul class="droplinks">
+    <li class="droplink demo" title="Capcom">
+      Demos
+    </li>
+    <li class="droplink" title="Darkcom" >
+      Playground</li>
+    <li class="droplink" title="Se-game" >
+      Pluggins</li>
+    <li class="droplink blog" title="Se-game" >
+      Blog</li>
+    <li class="droplink" title="Se-game" >
+      Sponsors</li>
+  
+  </ul>
+  
+  
+  
+  </li>
+  <li class="navlink playground" title="Playground"><a href="Pages/contact.html">Playground</a></li>
+  <li class="navlink studio" title="Studio"><a href="Pages/services.html">Studio</a></li>
+  <li class="navlink premium jack"title="Premium"><a href="Pages/about.html">Premium</a>
+  <ul class="droplinks">
+    <li class="droplink capcom" title="Capcom">
+      <img class="dropimg" src="../Assets/Icons/uiinitiative.svg" alt="Capcom" title="Capcom">
+      Capcom
+    </li>
+    <li class="droplink" title="Darkcom" >
+       <img class="dropimg" src="../Assets/Icons/konsta.svg" alt="Darkcom" title="Darkcom">
+      Darkcom</li>
+    <li class="droplink" title="Se-game" >
+       <img class="dropimg" src="../Assets/Icons/paneflow.svg" alt="Se-game" title="Se-game">
+      Se-game</li>
+  </ul>
+  
+  </li>
+  
+  </ul>
+  
+  
+  
+  <!-- Search Button -->
+  <button title="Search" class="search-btn">
+    <span id="search-icon" class="material-symbols-outlined">
+  search
+  </span>
+  <span class="keys">
+  <span class="ctrl">Ctrl</span>
+  <span class="k">K</span>
+  </span>
+  </button>
+  
+  
+  
+  
+  <!-- Search Input Screen Alert -->
+  <div class="s-head">
+    <div class="search-modal">
+    <span class="material-symbols-outlined">
+  search
+  </span>
+    <span class="material-symbols-outlined">
+  missing_controller
+  </span>
+  <input class="search-input" type="search" placeholder="Search Docs..."> 
+    </div>
+  </div>
+  
+  <!-- Nav close -->
+  </nav>
+  
+
+  
+
+<section class="contact">
+
+ <div class="contact-wrap">
+    
+    <form action="https://formspree.io/f/xwlepqgv" method="POST">
+
+<p>Send us a message</p>
+
+    <span class="form-name">
+      <input type="text" name="first Name" placeholder="First Name" required>
+ <input type="text" name="Last Name" placeholder=" Last Name" required>
+
+    </span>
+   
+    
+    
+  <input type="email" name="email address" placeholder="Your Email Address" required>
+  <textarea name="Message" rows="7" placeholder="Message" class="text-box" required></textarea>
+
+  <button type="submit" class="btn2">Send Message</button>
+      
+    </form>
+
+
+ </div>
+</section>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<!-- Footer -->
+
+<footer>
+<div class="footer-wrap">
+
+  <div class="footer-links">
+    
+<div class="docs logoo">
+   
+  <img class="footer-logo" src="../Assets/Icons/swiper-logo.svg" alt="logo" title="logo">
+ <p class="logo-name">Swiper</p>
+</div>
+
+
+<div class="docs">
+  <p class="topic">Docs</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Swiper Core / API</a></span>
+<span class="subs"><a href="#">Swiper Element</a></span>
+<span class="subs"><a href="#">Swiper React</a></span>
+<span class="subs"><a href="#">Swiper Vue</a></span>
+
+</div>
+<div class="docs">
+    <p class="topic">Resources</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+
+
+
+
+<div class="docs">
+    <p class="topic">Premium</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+<div class="docs">
+    <p class="topic">Support</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+<div class="docs">
+    <p class="topic">Compare</p>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+<span class="subs"><a href="#">Getting Started</a></span>
+
+</div>
+
+
+
+
+</div>
+
+<span class="copyright">
+
+  <p class="copy-subs">All product names, logos and brands are property of their respective owners.</p>
+
+  <p class="copy-subs">Copyright © 2026 Jimmy by </p>
+  
 </span>
 
-</button>
 
-  </header>
-
-
-<ul class="sidelinks">
+</div>
 
 
-<li data-panel="dashboard" class="sidelink"><a href="#">
-  <span title="Dashboard" id="icony" class="material-symbols-outlined">
-dashboard_2_gear
-</span>
-<span class="label">Dashboard</span>
-
-</a></li>
-<li data-panel="analytics" class="sidelink"><a href="#">
-<span title="Analytics"  id="icony" class="material-symbols-outlined">
-altitude
-</span>
-<span class="label">Analytics</span>
-
-</a></li>
-<li data-panel="projects" class="sidelink"><a href="#">
- <span title="Projects"  id="icony" class="material-symbols-outlined">
-work
-</span>
-<span class="label">Projects</span>
-
-</a></li>
-<li data-panel="settings" class="sidelink"><a href="#">
-<span title="Settings"  id="icony" class="material-symbols-outlined">
-settings
-</span>
-<span class="label">Settings</span>
-
-</a></li>
-<li data-panel="technology" class="sidelink"><a href="#">
- <span title="Technology"  id="icony" class="material-symbols-outlined">
-adb
-</span>
-<span class="label">Technology</span>
-
-</a></li>
-
-
-</ul>
-
-
-<aside class="sidebar2">
-
-        <div id="sidebar-content">
-
-        </div>
-
-    </aside>
-
-
-</aside>
+<!-- Footer close -->
+</footer>
 
 
 
 
 
 
-
-    <script src="js/swiper-bundle.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="../Assets/JS/swiper-bundle.min.js" ></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
@@ -107,5 +318,7 @@ adb
       nomodule
       src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"
     ></script>
+
   </body>
+
 </html>
